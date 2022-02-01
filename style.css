@@ -144,14 +144,14 @@ body {
 @media(max-width: 768px)
 {
   .container{
-    height: 80vh;
+    height: 85vh;
     width: 100%;
   }
   .wrapper{
  
     margin: 5%;
-    width: 80%;
-    height: 90vh;
+    width: 95%;
+    height: 80vh;
   }
   .wrapper input[type="text"]
   {
