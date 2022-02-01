@@ -10,7 +10,7 @@ body {
 }
 
 .header{
-  
+  margin-top: 2px;
   padding-top: 3px;
   vertical-align: center;
   text-align: center;
@@ -124,11 +124,15 @@ body {
 /* Media Queries */
 @media(max-width:480px)
 {
+  .container{
+    height: 80vh;
+    width: 100%;
+  }
   .wrapper{
    
-    margin: 10%;
-    width: 70%;
-   
+    margin: 5%;
+    width: 95%;
+    height: 70vh;
   }
   .wrapper input[type="text"]
   {
@@ -138,11 +142,15 @@ body {
 
 @media(max-width: 768px)
 {
+  .container{
+    height: 80vh;
+    width: 100%;
+  }
   .wrapper{
  
-    margin: 10%;
-    width: 70%;
-    
+    margin: 5%;
+    width: 95%;
+    height: 70vh;
   }
   .wrapper input[type="text"]
   {
