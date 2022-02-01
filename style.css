@@ -10,6 +10,7 @@ body {
 }
 
 .header{
+  font-family: 'Oswald', sans-serif;
   margin-top: 2px;
   padding-top: 3px;
   vertical-align: center;
@@ -19,7 +20,7 @@ body {
   color:black;
   font-size: 25px;
   font-weight: 700;
-  z-index: 1;
+
 }
 .container {
   
@@ -125,14 +126,14 @@ body {
 @media(max-width:480px)
 {
   .container{
-    height: 80vh;
+    height: 85vh;
     width: 100%;
   }
   .wrapper{
    
     margin: 5%;
     width: 95%;
-    height: 70vh;
+    height: 80vh;
   }
   .wrapper input[type="text"]
   {
@@ -149,8 +150,8 @@ body {
   .wrapper{
  
     margin: 5%;
-    width: 95%;
-    height: 70vh;
+    width: 80%;
+    height: 90vh;
   }
   .wrapper input[type="text"]
   {

@@ -18,22 +18,42 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body onload="refreshForm()">
-    <div class="header" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content:center; vertical-align: middle;">
-      <img src="./img/save-money.png" alt="" height="40px" width="40px" style="vertical-align: middle; padding: 0px; margin: 0px;"> <h3 style="padding: 8px; font-weight: 600; margin-top: 2px;">SIP GOAL PLANNER  </h3>
-     </div>
+    <div
+      class="header"
+      style="
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        vertical-align: middle;
+      "
+    >
+      <img
+        src="./img/save-money.png"
+        alt=""
+        height="40px"
+        width="40px"
+        style="vertical-align: middle; padding: 0px; margin: 0px"
+      />
+      <h3 style="padding: 8px; font-weight: 600; margin-top: 2px">
+        SIP GOAL PLANNER
+      </h3>
+    </div>
     <div class="container">
-    
       <div class="wrapper">
-
-    
-
         <div class="SIPAmtDiv">
           <h2 class="allLabel">
             Monthly SIP (<i
               class="fas fa-rupee-sign"
-              style="color: white; margin-top: 3%;"
+              style="color: white; margin-top: 3%"
               id="rupeeIcon"
             ></i
             >)
@@ -53,8 +73,9 @@
             type="text"
             id="sipInput"
             placeholder="5000"
-            style=" color: black; text-align: center"
-          required/>
+            style="color: black; text-align: center"
+            required
+          />
         </div>
         <br />
         <div class="TimeDiv">
@@ -72,8 +93,9 @@
             type="text"
             id="yearInput"
             placeholder="5"
-            style=" color: black; text-align: center"
-            required/>
+            style="color: black; text-align: center"
+            required
+          />
         </div>
         <br />
         <div class="RORDiv">
@@ -94,7 +116,8 @@
             id="RORInput"
             placeholder="5"
             style="color: black; text-align: center"
-            required/>
+            required
+          />
         </div>
         <br />
         <div class="submitBtn">
@@ -110,14 +133,32 @@
         </div>
 
         <div class="finalAmountDiv">
-          <input type="form-control" id="finalAmt" />
+          <input
+            type="form-control"
+            id="finalAmt"
+            style="border: 3px solid black"
+          />
         </div>
       </div>
     </div>
 
-
-    <div class="footer" style="text-align: center; font-size: 10px; padding: 5px; color: white;">
-      <h5 style="font-weight: 500; font-family: Verdana, Geneva, Tahoma, sans-serif; ">Made With <i class="fas fa-heart"></i> By <a href = "https://www.linkedin.com/in/jainbhavuk555/" style="text-decoration: underline; color:white">Bhavuk Jain</a> </h5>
+    <div
+      class="footer"
+      style="text-align: center; font-size: 10px; padding: 5px; color: white"
+    >
+      <h5
+        style="
+          font-weight: 500;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        "
+      >
+        Made With <i class="fas fa-heart"></i> By
+        <a
+          href="https://www.linkedin.com/in/jainbhavuk555/"
+          style="text-decoration: underline; color: white"
+          >Bhavuk Jain</a
+        >
+      </h5>
     </div>
 
     <script
